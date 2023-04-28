@@ -1,4 +1,5 @@
 //your JS code here. If required.
-document.addEventListener("DOMContentLoaded", function() {
-  document.body.textContent = "DOM load success";
-});
+window.onload=(event)=>{
+	document.querySelector('body')
+	innerHTML = "DOM load success"
+}
